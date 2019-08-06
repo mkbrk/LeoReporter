@@ -5,6 +5,7 @@ How to Get PhoneGap to Work
 0. Update npm with "sudo npm install -g npm"
 1. Update phonegap with "sudo npm install -g phonegap"
 2. Try running the app locally in a browser with "sudo phonegap serve --autoreload"
+    2b. Connect to e.g. http://192.168.1.29:3000 to check it
 3. Change some code and verify that it's updating
 4. Open phonegap tester app and connect to served URL (see if it continues to work) - note that some plugins might not work on this mode
 
