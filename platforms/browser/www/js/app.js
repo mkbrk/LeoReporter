@@ -43,7 +43,7 @@ var app = {
     },
     getRemoteUrl : function(path) {
         //TODO: get the URL root from config file
-        return "https://staging.leonetwork.org" + path;
+        return "https://www.leonetwork.org" + path;
     },
     showPage: function(id)
     {
