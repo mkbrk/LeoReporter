@@ -88,7 +88,8 @@ var app = {
             {
                 var token = res.Token;
                 var storage = window.localStorage;
-                storage.setItem("TOKEN", token);            
+                storage.setItem("TOKEN", token);    
+                app.showPage("make-observation-page");        
             }
             else
             {

@@ -46,12 +46,12 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <a class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-        </button>
+        </a>
         <a class="navbar-brand" href="javascript:app.showPage('about-page');" style="padding:5px;"><img style="max-width:40px;display:inline;" src="img/logo.png"/> Reporter</a>
     </div>
 
@@ -81,7 +81,7 @@
         </div>
 
         <div>
-            <button type="button" href="javascript:app.doSignIn();" class="btn btn-primary">Sign In</button>
+            <a type="button" href="javascript:app.doSignIn();" class="btn btn-primary">Sign In</a>
             <a class="btn btn-link">Forgot Password</a>
         </div>
     </div>
@@ -101,8 +101,8 @@
                 </p>
 
                 <p>
-                    <button type="button" href="javascript:observing.continueObservation();" class="btn btn-success">Continue Editing</button>
-                    <button type="button" href="javascript:observing.newObservation();" class="btn btn-warning">Start Over</button>
+                    <a  href="javascript:observing.continueObservation();" class="btn btn-success">Continue Editing</a>
+                    <a  href="javascript:observing.newObservation();" class="btn btn-warning">Start Over</a>
                 </p>
 
             </div>
@@ -116,7 +116,7 @@
                 </div>
 
                 <div style="text-align:center;">
-                    <button type="button" class="btn btn-primary" href="javascript:observing.showPage('when-page');">Next <i class="glyphicon glyphicon-chevron-right"></i></button>
+                    <a  class="btn btn-primary" href="javascript:observing.showPage('when-page');">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
                 </div>
 
             </div>
@@ -130,8 +130,8 @@
                 </div>
 
                 <div style="text-align:center;">
-                    <button type="button" tabindex="-1" class="btn btn-link" href="javascript:observing.showPage('headline-page');"><i class="glyphicon glyphicon-chevron-left"></i> Previous</button>
-                    <button type="button" class="btn btn-primary" href="javascript:observing.showPage('location-page');">Next <i class="glyphicon glyphicon-chevron-right"></i></button>
+                    <a  tabindex="-1" class="btn btn-link" href="javascript:observing.showPage('headline-page');"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+                    <a  class="btn btn-primary" href="javascript:observing.showPage('location-page');">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
                 </div>
 
             </div>
@@ -148,7 +148,7 @@
                 <div id="geolocation-area">
                     <div id="currentLocation" style="text-align:center;font-style:italic;color:gray;"></div>
                     <div>
-                        <button type="button" class="btn btn-default btn-lg btn-block" href="javascript:observing.getCurrentLocation();"><i class="glyphicon glyphicon-screenshot"></i> Get Current Location</button>
+                        <a class="btn btn-default btn-lg btn-block" href="javascript:observing.getCurrentLocation();"><i class="glyphicon glyphicon-screenshot"></i> Get Current Location</a>
                     </div>
 
                     <p style="text-align:center">or</p>
@@ -161,8 +161,8 @@
                 </div>
 
                 <div style="text-align:center;">
-                    <button type="button" tabindex="-1" class="btn btn-link" href="javascript:observing.showPage('when-page');"><i class="glyphicon glyphicon-chevron-left"></i> Previous</button>
-                    <button type="button" class="btn btn-primary" href="javascript:observing.showPage('description-page');">Next <i class="glyphicon glyphicon-chevron-right"></i></button>
+                    <a tabindex="-1" class="btn btn-link" href="javascript:observing.showPage('when-page');"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+                    <a class="btn btn-primary" href="javascript:observing.showPage('description-page');">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
                 </div>
 
             </div>
@@ -178,8 +178,8 @@
                 </div>
 
                 <div style="text-align:center;">
-                    <button type="button" tabindex="-1" class="btn btn-link" href="javascript:observing.showPage('location-page');"><i class="glyphicon glyphicon-chevron-left"></i> Previous</button>
-                    <button type="button" class="btn btn-primary"  href="javascript:observing.showPage('photos-page');">Next <i class="glyphicon glyphicon-chevron-right"></i></button>
+                    <a tabindex="-1" class="btn btn-link" href="javascript:observing.showPage('location-page');"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+                    <a class="btn btn-primary"  href="javascript:observing.showPage('photos-page');">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
                 </div>
 
             </div>
@@ -199,15 +199,15 @@
                     </p>
 
                     <div>
-                        <button type="button" class="btn btn-lg btn-default" href="javascript:observing.addPhoto('1');"><i class="glyphicon glyphicon-camera"></i> Take or Choose Photo</button>
-                        <button style="display:none;" href="javascript:observing.removePhoto('1')" id="Remove_1" type="button" class="btn btn-link"><i class="glyphicon glyphicon-remove"></i> Remove</button>
+                        <a class="btn btn-lg btn-default" href="javascript:observing.addPhoto('1');"><i class="glyphicon glyphicon-camera"></i> Take or Choose Photo</a>
+                        <a style="display:none;" href="javascript:observing.removePhoto('1')" id="Remove_1" type="button" class="btn btn-link"><i class="glyphicon glyphicon-remove"></i> Remove</a>
                     </div>
                 </div>
             </div>
 
         <div style="text-align:center;">
-            <button type="button" tabindex="-1" class="btn btn-link" href="javascript:observing.showPage('description-page');"><i class="glyphicon glyphicon-chevron-left"></i> Previous</button>
-            <button type="button" class="btn btn-primary" href="javascript:observing.showPage('categories-page');">Next <i class="glyphicon glyphicon-chevron-right"></i></button>
+            <a tabindex="-1" class="btn btn-link" href="javascript:observing.showPage('description-page');"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a class="btn btn-primary" href="javascript:observing.showPage('categories-page');">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
         </div>
 
     </div>
@@ -235,8 +235,8 @@
         </div>
 
         <div style="text-align:center;">
-            <button type="button" tabindex="-1" class="btn btn-link" href="javascript:observing.showPage('photos-page');"><i class="glyphicon glyphicon-chevron-left"></i> Previous</button>
-            <button type="button" class="btn btn-primary"  href="javascript:observing.showPage('review-page');">Next <i class="glyphicon glyphicon-chevron-right"></i></button>
+            <a tabindex="-1" class="btn btn-link" href="javascript:observing.showPage('photos-page');"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a class="btn btn-primary"  href="javascript:observing.showPage('review-page');">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
         </div>
 
     </div>
@@ -258,16 +258,16 @@
                 </div>
 
                 <p>
-                    <button type="button" id="submitButton" disabled="disabled" class="btn btn-success btn-block" href="javascript:observing.saveObservation(false);"><i class="glyphicon glyphicon-ok-sign"></i> Submit Now</button>
+                    <a id="submitButton" disabled="disabled" class="btn btn-success btn-block" href="javascript:observing.saveObservation(false);"><i class="glyphicon glyphicon-ok-sign"></i> Submit Now</a>
                 </p>
                 <p>
-                    <button type="button" class="btn btn-primary btn-block" href="javascript:observing.saveObservation(true); observing.syncObservations();"><i class="glyphicon glyphicon-time"></i> Save and Submit Later</button>
+                    <a class="btn btn-primary btn-block" href="javascript:observing.saveObservation(true); observing.syncObservations();"><i class="glyphicon glyphicon-time"></i> Save and Submit Later</a>
                 </p>
                 <p>
-                    <button type="button" class="btn btn-default btn-block" href="javascript:observing.showPage('headline-page');"><i class="glyphicon glyphicon-pencil"></i> Make Changes</button>
+                    <a class="btn btn-default btn-block" href="javascript:observing.showPage('headline-page');"><i class="glyphicon glyphicon-pencil"></i> Make Changes</a>
                 </p>
                 <p>
-                    <button type="button" class="btn btn-danger btn-block" href="javascript:observing.abandonCurrentObservation();"><i class="glyphicon glyphicon-remove"></i> Delete Post</button>
+                    <a class="btn btn-danger btn-block" href="javascript:observing.abandonCurrentObservation();"><i class="glyphicon glyphicon-remove"></i> Delete Post</a>
                 </p>
             </div>
 
@@ -280,7 +280,7 @@
     <div>
         <h1>Thank You for Sharing your Observation</h1>
         <div>
-            <button type="button" class="btn btn-primary" href="javascript:observing.startObservation();"><i class="glyphicon glyphicon-eye-open"></i> Make Another Observation</button>
+            <a class="btn btn-primary" href="javascript:observing.startObservation();"><i class="glyphicon glyphicon-eye-open"></i> Make Another Observation</a>
         </div>
     </div>
 </div>

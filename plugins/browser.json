@@ -36,6 +36,12 @@
     },
     "cordova-plugin-vibration": {
       "PACKAGE_NAME": "org.leonetwork.reporter"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "org.leonetwork.reporter"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "PACKAGE_NAME": "org.leonetwork.reporter"
     }
   },
   "dependent_plugins": {
@@ -43,6 +49,9 @@
       "PACKAGE_NAME": "org.leonetwork.reporter"
     },
     "cordova-plugin-file": {
+      "PACKAGE_NAME": "org.leonetwork.reporter"
+    },
+    "es6-promise-plugin": {
       "PACKAGE_NAME": "org.leonetwork.reporter"
     }
   }
